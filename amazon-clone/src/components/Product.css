@@ -1,0 +1,46 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 10px;
+  padding: 20px;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+  /* which comand is not working owo? */
+  /* aligh-items :center*/
+  /* you want to put all of them in a single row :o? yes i want to have ok now i understand! thanks-one more question-? if i want to product to stretch across the page how do i do that
+  */
+}
+
+.product__info {
+  width: 100%;
+  height: 100 px;
+  margin-bottom: 15 px;
+}
+
+.product > img {
+  max-height: 200px;
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 15 px;
+}
+
+.product > button {
+  background: #f0c14b;
+  border: 1px solid;
+  margin-top: 12px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+}
+
+.product__price {
+  margin-top: 5 px;
+}
+
+.product__rating {
+  display: flex;
+  flex-direction: row;
+}
+
